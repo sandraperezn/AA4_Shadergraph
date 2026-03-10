@@ -2,7 +2,7 @@ Shader "Shader Graphs/Barrier"
 {
     Properties
     {
-        _UV_Tile("UV Tile", Vector, 2) = (5, 5, 0, 0)
+        _UV_Tile("UV Tile", Vector) = (5, 5, 0, 0)
         [HDR]_Color("Color", Color) = (0, 0.952589, 1, 1)
         _Time_Speed("Time Speed", Float) = 1
         _Hex_Strength("Hex Strength", Float) = 2
@@ -115,7 +115,7 @@ Shader "Shader Graphs/Barrier"
         
         // Includes
         #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
-        #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Fog.hlsl"
+        // #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Fog.hlsl"  // Removed - not available in URP 17.3.0
         #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/RenderingLayers.hlsl"
         #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/ProbeVolumeVariants.hlsl"
         #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
@@ -756,7 +756,7 @@ Shader "Shader Graphs/Barrier"
         
         // Includes
         #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
-        #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Fog.hlsl"
+        // #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Fog.hlsl"  // Removed - not available in URP 17.3.0
         #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/RenderingLayers.hlsl"
         #include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/ProbeVolumeVariants.hlsl"
         #include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
@@ -1306,8 +1306,8 @@ Shader "Shader Graphs/Barrier"
         // Main
         
         #include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
-        #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/GBufferOutput.hlsl"
-        #include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRGBufferPass.hlsl"
+        // #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/GBufferOutput.hlsl"  // Removed - not available in URP 17.3.0
+        // #include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRGBufferPass.hlsl"  // Removed - depends on GBufferOutput.hlsl
         
         // --------------------------------------------------
         // Visual Effect Vertex Invocations
