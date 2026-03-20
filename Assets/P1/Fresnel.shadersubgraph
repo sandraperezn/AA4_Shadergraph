@@ -197,7 +197,6 @@
     "m_OutputNode": {
         "m_Id": "160539fad3a14d3c859163fc8490ea8a"
     },
-    "m_SubDatas": [],
     "m_ActiveTargets": []
 }
 
@@ -404,7 +403,7 @@
     "m_DefaultValue": {
         "x": 0.0,
         "y": 0.0,
-        "z": 1.0
+        "z": 0.0
     },
     "m_Labels": []
 }
@@ -837,7 +836,7 @@
     "m_Title": "Fresnel Glow",
     "m_Position": {
         "x": -1435.0,
-        "y": -236.0
+        "y": -215.00006103515626
     }
 }
 
