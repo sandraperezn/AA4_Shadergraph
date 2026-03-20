@@ -105,12 +105,13 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _Depth: 5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EdgeInnerHard: 0.6
-    - _EdgeInnerSoft: -0.3
+    - _EdgeInnerHard: 0.5
+    - _EdgeInnerSoft: -0.5
     - _EdgeWidth: 0.5
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -123,6 +124,7 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _Power: 2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -132,6 +134,8 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _Velocity_X: 0
+    - _Velocity_Y: 0.5
     - _WidthRatio: 1.5
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -139,6 +143,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 1, b: 0.9448633, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Fresnel_Color: {r: 0, g: 0.8548425, b: 0.9245283, a: 0}
+    - _Intersection_Color: {r: 0, g: 0.8708038, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

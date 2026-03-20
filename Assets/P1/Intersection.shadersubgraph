@@ -717,8 +717,8 @@
     "m_ObjectId": "789b23ed65dc4beb964b555793e6ed42",
     "m_Title": "Geometry Intersection Glow",
     "m_Position": {
-        "x": -1522.0001220703125,
-        "y": -213.99998474121095
+        "x": -1522.0,
+        "y": -214.0
     }
 }
 

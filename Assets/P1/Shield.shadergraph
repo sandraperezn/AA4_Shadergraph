@@ -794,7 +794,7 @@
     "m_ObjectId": "387729854435417488e65b3f120de32d",
     "m_Title": "Scrolling Screenspace Scanlines",
     "m_Position": {
-        "x": -1139.000244140625,
+        "x": -1139.0,
         "y": 445.0
     }
 }
@@ -894,7 +894,7 @@
     "m_Title": "Operaciones Finales",
     "m_Position": {
         "x": -1245.0,
-        "y": -512.0001220703125
+        "y": -512.0
     }
 }
 
@@ -2404,7 +2404,7 @@
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Color",
-    "m_StageCapability": 3,
+    "m_StageCapability": 2,
     "m_Value": {
         "x": 0.0,
         "y": 0.0,
@@ -2537,7 +2537,7 @@
     "m_Title": "Fresnel Glow",
     "m_Position": {
         "x": -1939.0,
-        "y": -546.0001220703125
+        "y": -546.0
     }
 }
 
