@@ -1179,8 +1179,8 @@
     "m_ObjectId": "0fb2acc1af6b42e0bbef3239cf64bd30",
     "m_Title": "HexTileMap",
     "m_Position": {
-        "x": -5166.00048828125,
-        "y": -724.0000610351563
+        "x": -5165.99951171875,
+        "y": -723.9999389648438
     }
 }
 
@@ -1215,7 +1215,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "X",
     "m_StageCapability": 3,
-    "m_Value": 0.6000000238418579,
+    "m_Value": 0.30000001192092898,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -1313,8 +1313,8 @@
     "m_ObjectId": "16c6b21fa7954f4996fb1f143e6c700e",
     "m_Title": "Scrolling Texture",
     "m_Position": {
-        "x": -1686.000244140625,
-        "y": -223.0
+        "x": -1685.9998779296875,
+        "y": -222.99996948242188
     }
 }
 
@@ -1415,8 +1415,8 @@
     "m_ObjectId": "1bdb131678bb487383c9a8a06b84159d",
     "m_Title": "Color and Tweaks",
     "m_Position": {
-        "x": -2071.000244140625,
-        "y": -682.0000610351563
+        "x": -2070.999755859375,
+        "y": -681.9999389648438
     }
 }
 
@@ -2917,8 +2917,8 @@
     "m_ObjectId": "59110dc3d3d041e4a4724ce2e99b984c",
     "m_Title": "Hex Rendering",
     "m_Position": {
-        "x": -3483.000244140625,
-        "y": -741.0000610351563
+        "x": -3482.999755859375,
+        "y": -740.9999389648438
     }
 }
 
@@ -4182,8 +4182,8 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -2903.0,
-        "y": -894.0,
+        "x": -3056.0,
+        "y": -933.0,
         "width": 348.0,
         "height": 160.0
     },

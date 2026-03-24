@@ -141,10 +141,10 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _Edge_Border_Opacity_Contrast: 7.65
-    - _Edge_Border_Opacity_Intensity: 0.5
-    - _Edge_Center_Opacity_Contrast: 2
-    - _Edge_Intensity: 0.5
+    - _Edge_Border_Opacity_Contrast: 11.5
+    - _Edge_Border_Opacity_Intensity: 0.3
+    - _Edge_Center_Opacity_Contrast: 3
+    - _Edge_Intensity: 0.8
     - _EnvironmentReflections: 1
     - _Fresnel_Efecto_Borde: 2
     - _Fresnel_Power: 0.6
