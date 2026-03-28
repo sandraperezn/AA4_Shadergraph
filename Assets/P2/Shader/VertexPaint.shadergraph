@@ -245,6 +245,9 @@
         },
         {
             "m_Id": "b43d35e2a5bd400fbea669f8b335b2ac"
+        },
+        {
+            "m_Id": "9a2a53d5375945ff8a559e978bc4c031"
         }
     ],
     "m_GroupDatas": [
@@ -527,7 +530,7 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "ff8baa5d3d424533890b0a56c7adc7b8"
+                    "m_Id": "9a2a53d5375945ff8a559e978bc4c031"
                 },
                 "m_SlotId": 0
             }
@@ -920,6 +923,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "deef197463b44c128b3db1ff61f72050"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "9a2a53d5375945ff8a559e978bc4c031"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "ff8baa5d3d424533890b0a56c7adc7b8"
                 },
                 "m_SlotId": 0
             }
@@ -1380,9 +1397,9 @@
     "m_Guid": {
         "m_GuidSerialized": "133cb8ef-7bc9-4255-b67b-decd94030139"
     },
-    "m_Name": "Snow Metallic",
+    "m_Name": "_Snow_Metallic",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Snow Metallic",
+    "m_RefNameGeneratedByDisplayName": "_Snow_Metallic",
     "m_DefaultReferenceName": "_Snow_Metallic",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -1774,7 +1791,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayInputMaterialSlot",
     "m_ObjectId": "1355f789991d49b6b26b35676f48cb28",
     "m_Id": 799510419,
-    "m_DisplayName": "Albedo Array",
+    "m_DisplayName": "_Albedo_Array",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Albedo_Array",
@@ -1865,7 +1882,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "17113d07cfdc4b27b237abc99c97e0f2",
     "m_Id": -1791803837,
-    "m_DisplayName": "Index",
+    "m_DisplayName": "_Index",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Index",
@@ -1897,9 +1914,9 @@
     "m_Guid": {
         "m_GuidSerialized": "a47a07e0-3add-4e20-ad1c-840a8ff86f28"
     },
-    "m_Name": "Vertical Displacement",
+    "m_Name": "_Vertical_Displacement",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Vertical Displacement",
+    "m_RefNameGeneratedByDisplayName": "_Vertical_Displacement",
     "m_DefaultReferenceName": "_Vertical_Displacement",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -1949,9 +1966,9 @@
     "m_Guid": {
         "m_GuidSerialized": "c44e1a8e-5444-4b73-bba7-b51d3a2178e1"
     },
-    "m_Name": "Normal Array",
+    "m_Name": "_Normal_Array",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Normal Array",
+    "m_RefNameGeneratedByDisplayName": "_Normal_Array",
     "m_DefaultReferenceName": "_Normal_Array",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -1974,7 +1991,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "1c09377af23c4672bfcc09b366ce2279",
     "m_Id": 0,
-    "m_DisplayName": "Snow Metallic",
+    "m_DisplayName": "_Snow_Metallic",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1986,14 +2003,38 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "1c214034b90049728ecdc867ff3ac681",
+    "m_Id": 1,
+    "m_DisplayName": "",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DArrayShaderProperty",
     "m_ObjectId": "1dc8ea46b5964409aa474d7c58932fc2",
     "m_Guid": {
         "m_GuidSerialized": "9c519b68-6237-4984-ab41-fdf87451f1c9"
     },
-    "m_Name": "Albedo Array",
+    "m_Name": "_Albedo_Array",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Albedo Array",
+    "m_RefNameGeneratedByDisplayName": "_Albedo_Array",
     "m_DefaultReferenceName": "_Albedo_Array",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2018,10 +2059,10 @@
     "m_Guid": {
         "m_GuidSerialized": "a07b91a8-2076-4f11-96ca-f68a01719ead"
     },
-    "m_Name": "NoiseTexture",
+    "m_Name": "_Noise_Texture",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "NoiseTexture",
-    "m_DefaultReferenceName": "_NoiseTexture",
+    "m_RefNameGeneratedByDisplayName": "_Noise_Texture",
+    "m_DefaultReferenceName": "_Noise_Texture",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2211,7 +2252,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayMaterialSlot",
     "m_ObjectId": "23081824e7f84c10a26d150eaec50b7d",
     "m_Id": 0,
-    "m_DisplayName": "Normal Array",
+    "m_DisplayName": "_Normal_Array",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2579,7 +2620,7 @@
     "m_Title": "UV setup",
     "m_Position": {
         "x": -3975.0,
-        "y": 466.0001525878906
+        "y": 466.0
     }
 }
 
@@ -2696,7 +2737,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "322a3150e902494c9549ea8d01caf63a",
     "m_Id": 0,
-    "m_DisplayName": "Index A",
+    "m_DisplayName": "_Index_A",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2713,9 +2754,9 @@
     "m_Guid": {
         "m_GuidSerialized": "8a19c3b2-120a-4683-b2fc-94bcddd09d6e"
     },
-    "m_Name": "UV Scale",
+    "m_Name": "_UV_Scale",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "UV Scale",
+    "m_RefNameGeneratedByDisplayName": "_UV_Scale",
     "m_DefaultReferenceName": "_UV_Scale",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2923,7 +2964,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "3c606305f13c426bafac96b8eb4ce9a0",
     "m_Id": 0,
-    "m_DisplayName": "Index B",
+    "m_DisplayName": "_Index_B",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3010,9 +3051,9 @@
     "m_Guid": {
         "m_GuidSerialized": "6bbb17ca-cd9f-406c-850e-3ed7b53247b2"
     },
-    "m_Name": "Blend Distance",
+    "m_Name": "_Blend_Distance",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Blend Distance",
+    "m_RefNameGeneratedByDisplayName": "_Blend_Distance",
     "m_DefaultReferenceName": "_Blend_Distance",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -3028,6 +3069,30 @@
     "m_RangeValues": {
         "x": 0.0,
         "y": 5.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
+    "m_ObjectId": "425f341741fb4805bd92abc654dd92fe",
+    "m_Id": 0,
+    "m_DisplayName": "",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
     }
 }
 
@@ -3116,9 +3181,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1808.0,
-            "y": -381.9999694824219,
-            "width": 126.0,
+            "x": -1820.9998779296875,
+            "y": -398.0,
+            "width": 125.9998779296875,
             "height": 118.0
         }
     },
@@ -3151,7 +3216,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "45b1951efefc460f8950767691d4e96f",
     "m_Id": 0,
-    "m_DisplayName": "Blend Distance",
+    "m_DisplayName": "_Blend_Distance",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3256,7 +3321,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "4f74e3c97a264c6ab167d63ae4920315",
     "m_Id": 0,
-    "m_DisplayName": "Snow Smoothness",
+    "m_DisplayName": "_Snow_Smoothness",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3390,7 +3455,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "52552be2eaff44d8bfb7a2423774a832",
     "m_Id": -1421975644,
-    "m_DisplayName": "UV",
+    "m_DisplayName": "_UV",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_UV",
@@ -3685,9 +3750,9 @@
     "m_Guid": {
         "m_GuidSerialized": "8ea76525-9521-4bea-a684-2fdcd0238f2b"
     },
-    "m_Name": "Snow Smoothness",
+    "m_Name": "_Snow_Smoothness",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Snow Smoothness",
+    "m_RefNameGeneratedByDisplayName": "_Snow_Smoothness",
     "m_DefaultReferenceName": "_Snow_Smoothness",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -3879,7 +3944,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayMaterialSlot",
     "m_ObjectId": "5e22b84d9d4342408e70896aee21f320",
     "m_Id": 0,
-    "m_DisplayName": "Albedo Array",
+    "m_DisplayName": "_Albedo_Array",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3894,7 +3959,7 @@
     "m_Title": "Texture sampling",
     "m_Position": {
         "x": -3094.0,
-        "y": 229.0001220703125
+        "y": 229.0
     }
 }
 
@@ -4166,7 +4231,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "6aaccf8ecebf43fa8a3687e6be489342",
     "m_Id": 0,
-    "m_DisplayName": "NoiseTexture",
+    "m_DisplayName": "_Noise_Texture",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -5098,7 +5163,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "8bc48565b8e24b88989cd770b611142c",
     "m_Id": 0,
-    "m_DisplayName": "Vertical Displacement",
+    "m_DisplayName": "_Vertical_Displacement",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -5261,9 +5326,9 @@
     "m_Guid": {
         "m_GuidSerialized": "6d87bc77-d78e-4247-966b-bfa71628b269"
     },
-    "m_Name": "Index B",
+    "m_Name": "_Index_B",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Index B",
+    "m_RefNameGeneratedByDisplayName": "_Index_B",
     "m_DefaultReferenceName": "_Index_B",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -5460,6 +5525,42 @@
         "blend",
         "linear interpolate"
     ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.RedirectNodeData",
+    "m_ObjectId": "9a2a53d5375945ff8a559e978bc4c031",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Redirect Node",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1733.9998779296875,
+            "y": 479.9999694824219,
+            "width": 55.9998779296875,
+            "height": 24.000030517578126
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "425f341741fb4805bd92abc654dd92fe"
+        },
+        {
+            "m_Id": "1c214034b90049728ecdc867ff3ac681"
+        }
+    ],
+    "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
     "m_DismissedVersion": 0,
@@ -5775,7 +5876,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "a7fe135cb8b44cc89010b4ed4f86106f",
     "m_Id": 0,
-    "m_DisplayName": "Snow AO",
+    "m_DisplayName": "_Snow_AO",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -5790,7 +5891,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayMaterialSlot",
     "m_ObjectId": "abdac81e1aa24f1aab88dcb1a94834ec",
     "m_Id": 0,
-    "m_DisplayName": "Albedo Array",
+    "m_DisplayName": "_Albedo_Array",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -5917,7 +6018,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "b35823faefb4402291bc1925f407540c",
     "m_Id": -1791803837,
-    "m_DisplayName": "Index",
+    "m_DisplayName": "_Index",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Index",
@@ -6008,7 +6109,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayMaterialSlot",
     "m_ObjectId": "b6849e736e1747be831f87d1e12eae18",
     "m_Id": 0,
-    "m_DisplayName": "MAOHS Array",
+    "m_DisplayName": "_MAOHS_Array",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -6021,7 +6122,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayInputMaterialSlot",
     "m_ObjectId": "b858aee6c8a7421d97d0df6f66800cb5",
     "m_Id": -1879811140,
-    "m_DisplayName": "Normal Array",
+    "m_DisplayName": "_Normal_Array",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Normal_Array",
@@ -6150,7 +6251,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "bf102bfd1b48437b88ba405a3b949c58",
     "m_Id": 0,
-    "m_DisplayName": "UV Scale",
+    "m_DisplayName": "_UV_Scale",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -6165,7 +6266,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayInputMaterialSlot",
     "m_ObjectId": "bf21f40d97744e4282f328bb44586570",
     "m_Id": -408803252,
-    "m_DisplayName": "MAOHS Array",
+    "m_DisplayName": "_MAOHS_Array",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_MAOHS_Array",
@@ -6440,7 +6541,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayInputMaterialSlot",
     "m_ObjectId": "c841f6d1bb864a7088c2152f7b4147f3",
     "m_Id": -1879811140,
-    "m_DisplayName": "Normal Array",
+    "m_DisplayName": "_Normal_Array",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Normal_Array",
@@ -6457,7 +6558,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "ca4dc1a6a04c4deaa58ed8e3099dd4b7",
     "m_Id": 0,
-    "m_DisplayName": "Blend Distance",
+    "m_DisplayName": "_Blend_Distance",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -6474,9 +6575,9 @@
     "m_Guid": {
         "m_GuidSerialized": "ef5bb3f7-af95-4dcd-a018-aed3cadf1f28"
     },
-    "m_Name": "MAOHS Array",
+    "m_Name": "_MAOHS_Array",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "MAOHS Array",
+    "m_RefNameGeneratedByDisplayName": "_MAOHS_Array",
     "m_DefaultReferenceName": "_MAOHS_Array",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -6562,10 +6663,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1990.0,
-            "y": -210.0,
-            "width": 154.0,
-            "height": 33.99998474121094
+            "x": -2002.9998779296875,
+            "y": -225.99998474121095,
+            "width": 153.9998779296875,
+            "height": 33.999969482421878
         }
     },
     "m_Slots": [
@@ -6591,7 +6692,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "d1a957cde49a4305a6ca9094ec2e21e3",
     "m_Id": -1421975644,
-    "m_DisplayName": "UV",
+    "m_DisplayName": "_UV",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_UV",
@@ -6795,9 +6896,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1619.0,
-            "y": -381.9999694824219,
-            "width": 128.0,
+            "x": -1631.9998779296875,
+            "y": -398.0,
+            "width": 127.9998779296875,
             "height": 94.00003051757813
         }
     },
@@ -6827,8 +6928,8 @@
     "m_ObjectId": "d6b668ab57b94e74abf32a149326c406",
     "m_Title": "Snow Lerp",
     "m_Position": {
-        "x": -2055.0,
-        "y": -769.0
+        "x": -2068.0,
+        "y": -785.0
     }
 }
 
@@ -6838,8 +6939,8 @@
     "m_ObjectId": "d6f9891d983c42ca95f90095d7ff015a",
     "m_Title": "Vertical displacement",
     "m_Position": {
-        "x": -596.9999389648438,
-        "y": -326.00006103515627
+        "x": -597.0,
+        "y": -326.0
     }
 }
 
@@ -6894,9 +6995,9 @@
         "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2009.0,
-            "y": -381.9999694824219,
-            "width": 126.0001220703125,
+            "x": -2021.9998779296875,
+            "y": -398.0,
+            "width": 126.0,
             "height": 94.00003051757813
         }
     },
@@ -7029,9 +7130,9 @@
     "m_Guid": {
         "m_GuidSerialized": "f2bd43b7-8e48-4fc1-bb1d-4badd0ab9180"
     },
-    "m_Name": "Index A",
+    "m_Name": "_Index_A",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Index A",
+    "m_RefNameGeneratedByDisplayName": "_Index_A",
     "m_DefaultReferenceName": "_Index_A",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -7109,7 +7210,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayMaterialSlot",
     "m_ObjectId": "e04d61e08f7f4099ad3527a637556d4f",
     "m_Id": 0,
-    "m_DisplayName": "MAOHS Array",
+    "m_DisplayName": "_MAOHS_Array",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7170,7 +7271,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayMaterialSlot",
     "m_ObjectId": "e0bb79d4ea7545d6b8b792a29989944f",
     "m_Id": 0,
-    "m_DisplayName": "Normal Array",
+    "m_DisplayName": "_Normal_Array",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -7297,8 +7398,8 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -2030.0,
-        "y": -710.0,
+        "x": -2043.0,
+        "y": -726.0,
         "width": 395.0,
         "height": 132.0
     },
@@ -7314,9 +7415,9 @@
     "m_Guid": {
         "m_GuidSerialized": "5b1080a6-5239-43c5-a55d-4ea151489673"
     },
-    "m_Name": "Snow AO",
+    "m_Name": "_Snow_AO",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Snow AO",
+    "m_RefNameGeneratedByDisplayName": "_Snow_AO",
     "m_DefaultReferenceName": "_Snow_AO",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -7347,10 +7448,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1699.0001220703125,
-            "y": -225.0000457763672,
-            "width": 208.0,
-            "height": 125.0000228881836
+            "x": -1736.000244140625,
+            "y": -240.00003051757813,
+            "width": 208.0001220703125,
+            "height": 125.00000762939453
         }
     },
     "m_Slots": [
@@ -7734,7 +7835,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayInputMaterialSlot",
     "m_ObjectId": "f9500ae9f1074ada8b46c39872ef928a",
     "m_Id": 799510419,
-    "m_DisplayName": "Albedo Array",
+    "m_DisplayName": "_Albedo_Array",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_Albedo_Array",
@@ -7882,7 +7983,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DArrayInputMaterialSlot",
     "m_ObjectId": "fec4300e89b546439f0f0d0853b224be",
     "m_Id": -408803252,
-    "m_DisplayName": "MAOHS Array",
+    "m_DisplayName": "_MAOHS_Array",
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "_MAOHS_Array",
@@ -7906,10 +8007,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1421.0,
-            "y": -381.9999694824219,
-            "width": 208.0,
-            "height": 325.9999694824219
+            "x": -1434.0,
+            "y": -398.0,
+            "width": 208.0001220703125,
+            "height": 326.0
         }
     },
     "m_Slots": [
