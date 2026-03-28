@@ -1363,8 +1363,8 @@ Shader "Shader Graphs/VertexPaint"
         // Main
         
         #include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
-        // #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/GBufferOutput.hlsl"  // Removed - not available in URP 17.3.0
-        // #include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRGBufferPass.hlsl"  // Removed - depends on GBufferOutput.hlsl
+        #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/UnityGBuffer.hlsl"
+        #include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/PBRGBufferPass.hlsl"
         
         // --------------------------------------------------
         // Visual Effect Vertex Invocations
