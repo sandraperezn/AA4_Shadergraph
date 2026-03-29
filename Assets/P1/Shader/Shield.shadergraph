@@ -57,6 +57,12 @@
         },
         {
             "m_Id": "f77c43f5aff74ce98c042a28b360ccb9"
+        },
+        {
+            "m_Id": "fb08439b19c740008d8b25b53f7886ed"
+        },
+        {
+            "m_Id": "a3a389eaa33a4b04ad140c087a9de640"
         }
     ],
     "m_Nodes": [
@@ -586,10 +592,10 @@
         },
         "m_Blocks": [
             {
-                "m_Id": "8ece4b3fa3584127a7afefc7f64fe533"
+                "m_Id": "89fa53bc513a4edaaf507882bd04b162"
             },
             {
-                "m_Id": "89fa53bc513a4edaaf507882bd04b162"
+                "m_Id": "8ece4b3fa3584127a7afefc7f64fe533"
             }
         ]
     },
@@ -975,7 +981,7 @@
     "m_SurfaceType": 1,
     "m_ZTestMode": 4,
     "m_ZWriteControl": 0,
-    "m_AlphaMode": 0,
+    "m_AlphaMode": 2,
     "m_RenderFace": 2,
     "m_AlphaClip": false,
     "m_CastShadows": true,
@@ -1427,7 +1433,7 @@
     "m_ObjectId": "495e435ed3fd45e2a585ee00c711a39b",
     "m_Title": "Operaciones Finales",
     "m_Position": {
-        "x": -2126.000244140625,
+        "x": -2126.0,
         "y": -616.0
     }
 }
@@ -1490,7 +1496,7 @@
     "m_ObjectId": "4d145db64d9e47f8ad6da65a009357df",
     "m_Title": "Geometry Intersection Glow",
     "m_Position": {
-        "x": -3039.000244140625,
+        "x": -3039.0,
         "y": -96.0
     }
 }
@@ -2254,10 +2260,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": 262.0000305175781,
+            "y": -82.0000228881836,
+            "width": 199.99996948242188,
+            "height": 41.0
         }
     },
     "m_Slots": [
@@ -2632,6 +2638,51 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "a3a389eaa33a4b04ad140c087a9de640",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "cc0b8ea0ec7c4e74b23b77be8a17fd58"
+        },
+        {
+            "m_Id": "696c94ffdef543d5a9e0d5c3a7b1b30a"
+        },
+        {
+            "m_Id": "9b0b236e03fb4f5498307216f8874784"
+        },
+        {
+            "m_Id": "c9830aa6a730456f843cdef1369f048d"
+        },
+        {
+            "m_Id": "4cca17ede5df4127a26dd0874de8e079"
+        },
+        {
+            "m_Id": "a1b2c3d4e5f648a1aed49c1ee2b3c4d5"
+        },
+        {
+            "m_Id": "e4a6d03a9b7b4e85a8c8fef01b2d4c10"
+        },
+        {
+            "m_Id": "f5b7c14aa8e14d1bb2cc8d5e3f9a0b21"
+        },
+        {
+            "m_Id": "0a8c2f77d6e34f4da2b5c9e1f3a6d842"
+        },
+        {
+            "m_Id": "b6f4a1c39d6e4b2f8a7c5d3e1f0a9b8c"
+        },
+        {
+            "m_Id": "d1f3a5c7e9b14c2d8f0a1b2c3d4e5f60"
+        },
+        {
+            "m_Id": "e2a4b6d8f0c14d3e9a1b2c3d4e5f6071"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "a4733f213ac545919c4f2dcf9aa49450",
     "m_Title": "Fresnel",
@@ -2950,8 +3001,8 @@
     "m_ObjectId": "b4f5025e8e664fa3b80cee53529df568",
     "m_Title": "Scrolling Texture",
     "m_Position": {
-        "x": -990.0000610351563,
-        "y": -1076.0001220703125
+        "x": -990.0,
+        "y": -1076.0
     }
 }
 
@@ -4162,7 +4213,7 @@
     "m_ObjectId": "f8976944b14d496790c74217b32e52bb",
     "m_Title": "Fresnel Glow",
     "m_Position": {
-        "x": -2721.000244140625,
+        "x": -2721.0,
         "y": -783.0
     }
 }
@@ -4213,5 +4264,50 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "fb08439b19c740008d8b25b53f7886ed",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "cc0b8ea0ec7c4e74b23b77be8a17fd58"
+        },
+        {
+            "m_Id": "696c94ffdef543d5a9e0d5c3a7b1b30a"
+        },
+        {
+            "m_Id": "9b0b236e03fb4f5498307216f8874784"
+        },
+        {
+            "m_Id": "c9830aa6a730456f843cdef1369f048d"
+        },
+        {
+            "m_Id": "4cca17ede5df4127a26dd0874de8e079"
+        },
+        {
+            "m_Id": "a1b2c3d4e5f648a1aed49c1ee2b3c4d5"
+        },
+        {
+            "m_Id": "e4a6d03a9b7b4e85a8c8fef01b2d4c10"
+        },
+        {
+            "m_Id": "f5b7c14aa8e14d1bb2cc8d5e3f9a0b21"
+        },
+        {
+            "m_Id": "0a8c2f77d6e34f4da2b5c9e1f3a6d842"
+        },
+        {
+            "m_Id": "b6f4a1c39d6e4b2f8a7c5d3e1f0a9b8c"
+        },
+        {
+            "m_Id": "d1f3a5c7e9b14c2d8f0a1b2c3d4e5f60"
+        },
+        {
+            "m_Id": "e2a4b6d8f0c14d3e9a1b2c3d4e5f6071"
+        }
+    ]
 }
 
