@@ -93,6 +93,7 @@ Material:
     m_Floats:
     - _BlendDistance: 0.3
     - _DisplacementStrength: 4.5
+    - _NoiseScale: 2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _UVScale: 0.2
