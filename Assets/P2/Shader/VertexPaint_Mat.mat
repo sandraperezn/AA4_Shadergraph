@@ -65,6 +65,18 @@ Material:
         m_Texture: {fileID: 2800000, guid: baf33fed59ee30848bd2771cf802c324, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTextureSet_2cc0be8fb86e4156aaed3d338f6ae93b_MAOHS_1266331829_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTextureSet_b2dcb21c6ea2458cb7e2afa45344aa06_MAOHS_1266331829_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTextureSet_dad48511d98f4054824479e9e84fffc1_MAOHS_1266331829_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Snow_ARM:
         m_Texture: {fileID: 2800000, guid: 9386bf2aaf308cb4a86c95312821c7eb, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -73,8 +85,12 @@ Material:
         m_Texture: {fileID: 2800000, guid: db1cc1832c242ac4990c77dd7eb01d23, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Snow_MAOHS:
+        m_Texture: {fileID: 2800000, guid: 000cfaf547e83134083e0ef229b45c55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Snow_Normal:
-        m_Texture: {fileID: 2800000, guid: 2391a44511a79fd458b649ab7bad40d6, type: 3}
+        m_Texture: {fileID: 2800000, guid: e3b452cb4420f864d9907a7e683c5b95, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -91,7 +107,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlendDistance: 0.3
+    - _BlendDistance: 0.2
     - _DisplacementStrength: 4.5
     - _NoiseScale: 2
     - _QueueControl: 0
